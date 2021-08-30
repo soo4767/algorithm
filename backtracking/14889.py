@@ -4,10 +4,12 @@ from itertools import combinations
 min = 987654321
 s = []
 n = int(input())
+
 people = [i for i in range(n)]
 for i in range(n):
     j = list(map(int, input().split()))
     s.append(j)
+
 for a_team in combinations(people, len(people) // 2):
     a_sum = 0
     b_sum = 0
