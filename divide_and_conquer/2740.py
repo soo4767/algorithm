@@ -7,7 +7,6 @@ a = [list(map(int, input().split())) for _ in range(N)]
 M, K = list(map(int, input().split()))
 b = [list(map(int, input().split())) for _ in range(M)]
 
-
 # num[0][0] =  a[0][0] * b[0][0] + a[0][1]*b[1][0]
 # num[0][1] =  a[0][0] * b[0][1] + a[0][1]*b[1][1]
 # num[0][2] =  a[0][0] * b[0][2] + a[0][1]*b[1][2]
