@@ -18,7 +18,6 @@ def bfs(x, y):
             if graph[ny][nx] == 0:
                 continue
             if graph[ny][nx] == 1:
-
                 que.append((nx, ny))
                 graph[ny][nx] = graph[y][x] + 1
 
